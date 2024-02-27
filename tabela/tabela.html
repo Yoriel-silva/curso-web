@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <table border="2" width="100%">
+        <tr> <!-- linha da tabela-->
+            <th>codigo</th> <!--coluna da tabela-->
+            <th>produto</th>
+            <th>preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>frango</td>
+            <td>RS 10,00</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>carne</td>
+            <td>RS 15,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td><!--junta a coluna-->
+            <td colspan="2">cupom1 - RS 10,00</td><!--Junta a linha-->
+        </tr>
+        <tr>
+            <td colspan="2">cupom2 -RS 12,00</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td colspan="2">RS 3,00</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegação</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+
+    <!--
+    Tipos de navegação:
+        nav-pills
+        av-tabs
+    Opções de alinhamento:
+        justify-content-center
+        justify-content-end
+        flex-column
+    -->
+
+    <h2>Navegação Simples / Abas</h2>
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item "><a href="" class="nav-link active" >Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link active">Sobre</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contato</a></li>
+    </ul>
+
+    <h2>Barra de Navegação Simples</h2>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!--Navegação-->
+        <ul class="navbar-nav">
+            <li class="nav-item "><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <h2>Barras de Navegação com Menu Responsivo</h2>
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!--Mane Hamburguer-->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navegação-->
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class="navbar-nav">
+                <li class="nav-item "><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <h2>Barra de Navegação com Formulario</h2>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!--Mane Hamburguer-->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-target2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navegação-->
+        <div class="collapse navbar-collapse" id="nav-target2">
+            <ul class="navbar-nav">
+                <li class="nav-item "><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contato</a></li>
+            </ul>
+            <!--Formulario-->
+            <form class="form">
+                <input type="text" class="form-control" placeholder="pesquisar">
+                <button class="btn btn-outline-dark btn-light">Ok</button>
+            </form>
+        </div>
+    </nav>
+
+    <h2>Barras de Navegação Dropdown</h2>
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!--Mane Hamburguer-->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-target3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navegação-->
+        <div class="collapse navbar-collapse" id="nav-target3">
+            <ul class="navbar-nav">
+                <li class="nav-item "><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contato</a>
+
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">Servico 1</a>
+                        <a href="" class="dropdown-item">Servico 2</a>
+                        <a href="" class="dropdown-item">Servico 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
+

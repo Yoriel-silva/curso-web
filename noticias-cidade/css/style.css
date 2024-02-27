@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../image/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#topo {
+    height: 150px;
+    background: url(../image/detalhe-topo.png) no-repeat right;
+    padding-top: 25px;
+}
+
+#logo {
+    border: 1px solid red;
+    width: 152px;
+    height: 66px;
+    background: url(../image/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+
+ul {
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul li a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(../image/divisor.png) no-repeat left center;
+}
+
+#topo ul a:hover{
+    color: black;
+}
+
+#conteudo {
+    width: 750px;
+    margin: 55px auto 0;
+    border: 1px solid red;
+    
+}
+
+.coluna-1{
+    border: 1px solid red;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(../image/fundo-caixa.png);
+    padding: 5px;
+    width: 185px;
+}
+
+#conteudo h1 {
+    background-color: blue;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#entrevistas a {
+    background: white;
+    display: block;
+}
+
+#entrevistas ul{
+    margin-bottom: 5px;
+}
+
+.coluna-2{
+    border: 1px solid red;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../image/fundo-caixa.png);
+    padding: 5px;
+    width: 250px;
+}
+
+.coluna-3{
+    border: 1px solid red;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../image/fundo-caixa.png);
+    padding: 5px;
+    width: 250px;
+}
+
+.clear {
+    clear: both;
+}
+
+.coluna-2 h5 {
+    background: red;
+    display: inline-block;
+}
+
+.noticia {
+    background-color: white;
+}
+
+#conteudo img {
+    width: 250px;
+}

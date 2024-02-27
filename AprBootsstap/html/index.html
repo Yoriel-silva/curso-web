@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <!--Configuração do Css-->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+    <!--Cabeçalho-->
+    <h1>Cabeçalho1</h1>
+    <h2 class="h1">Cabeçalho2</h2>
+    <h3>Cabeçalho3</h3>
+    <h4>Cabeçalho4</h4>
+    <h5>Cabeçalho5</h5>
+    <h6>Cabeçalho6</h6>
+
+    <!--Display classes - Maior Destaque-->
+
+    <h1 class="display-1">Display1</h1>
+    <h1 class="display-2">Display2</h1>
+    <h1 class="display-3">Display3</h1>
+    <h1 class="display-4">Display4</h1>
+    
+    <!--Parágrafo-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, repellat ducimus modi fugit iure quis similique molestias quas vero inventore repellendus iste, ullam nam cupiditate? Officia iusto dolore quidem quisquam.</p>
+
+    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum est ipsam eius cumque dolorem, libero in possimus corporis dolore labore amet omnis tempore at, iste earum consequuntur eos, vitae dicta!</p>
+
+    <!--Parágrafo Monospace-->
+
+    <p class="font-monospace">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, dolore fugit id veritatis illo commodi error inventore, qui ipsam numquam eaque consectetur reiciendis dolor quas totam minima corrupti aperiam ipsum.</p>
+
+    <!-- Classes de estilo-->
+    <p class="fw-bold">Texto negrito</p>
+    <p class="fw-normal">Texto normal</p>
+    <p class="fst-italic">Texto itálico</p>
+
+    <!--Transformações de texto-->
+    <p class="text-uppercase">Letras maiusculas</p>
+    <p class="text-lowercase">LETRAS minusculas</p>
+    <p class="text-capitalize">primeira maiuscula</p>
+
+    <!--Alinhamentos-->
+    <p class="text-end">Direita</p>
+    <p class="text-start">Esquerda</p>
+    <p class="text-center">Centro</p>
+
+    <!--Bloco de citação-->
+    <blockquote class="blockquote">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatum debitis possimus architecto tenetur sit voluptatibus neque amet labore atque, beatae exercitationem facere maiores odio maxime soluta, consequatur consectetur iure!
+        </p>
+        <footer class="blockquote-footer">
+            <cite>Yoriel</cite>
+        </footer>
+    </blockquote>
+
+    <!--Colar no top ou bottom (sticky-top / sticky-bottom)-->
+    <ul class="list-inline bg-warning sticky-top">
+      <li class="list-inline-item"> Item 1</li>
+      <li class="list-inline-item"> Item 2</li>
+      <li class="list-inline-item"> Item 3</li>
+    </ul>
+
+    <!--Truncate-->
+
+    <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestias expedita animi aliquam inventore vero, sed, voluptatem voluptas explicabo veniam debitis omnis eum tempore soluta architecto sit non, dolorum velit.</p>
+
+    <!--Listas sem estilo-->
+    <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!--Lista inline-->
+    <ul>
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    <!--Alinhamento Responsalvel
+    class="text-<tela>-<alinhamento>"
+    tela:sm, md, lg, xl 
+    alinhamento start, center, end-->
+    <p class="text-sm-end">Tela &gt;= 576px</p>
+    <p class="text-md-end">Tela &gt;= 768px</p>
+    <p class="text-lg-end">Tela &gt;= 992px</p>
+    <p class="text-xl-end">Tela &gt;= 1200px</p>
+
+    <!--Elemento block para inline-->
+    <h1 class="d-inline">Lorem Impsum</h1>
+    <p class="d-inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ullam quas nostrum veniam consectetur provident beatae itaque facere ut hic, architecto ex soluta? Nostrum maiores, dolor omnis natus hic commodi!</p>
+
+    <!--Elemento inline para block-->
+    <span class="d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo molestias laborum incidunt officia ipsa, deserunt dolorem quibusdam illum delectus? Molestias laboriosam labore incidunt quam minima temporibus culpa laborum nisi?</span>
+    
+    <span class="d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam eveniet, voluptatem molestias doloribus quos veritatis at est dolore? Magni amet fuga, delectus pariatur nesciunt aspernatur nam consequatur accusamus veritatis.</span>
+    
+    <!--Elementos Inline-block-->
+    <h3 class="d-inline-block">Lorem Impsum</h3>
+    <h3 class="d-inline-block">Lorem Impsum</h3>
+    
+    <!--Elementos Flutuantes-->
+    <div style="border: 1px solid red;" class="clearfix">
+      <div class="bg-success float-start">Float start</div>
+      <div class="bg-warning float-end">Float end</div>
+    </div>
+    
+    <!--Posicionamento fixo - top e bottom-->
+    <h1 class="fixed-bottom">Titulo conteudo fixo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptate quos iusto libero dignissimos distinctio! Tempore doloremque aliquid voluptatem similique architecto accusamus. Accusamus et explicabo architecto ullam minima voluptatem unde.</p>
+
+    <!--float responsivo - float-<tela>-<direcao>
+          tela: sm, md, lg, xl  
+          Alinhamento: start, end
+    -->
+    <div class="float-sm-end">Tela &gt;= 576px</div>
+    <div class="float-md-end">Tela &gt;= 768px</div>
+    <div class="float-lg-end">Tela &gt;= 992px</div>
+    <div class="float-xl-end">Tela &gt;= 1200px</div>
+
+    <!--classe para formatação de textp-->
+    <div style="background: purple;">
+      <h1 class="text-primary">Texto primary</h1>
+      <h1 class="text-secondary">Texto secondary</h1>
+      <h1 class="text-success">Texto success</h1>
+      <h1 class="text-info">Texto info</h1>
+      <h1 class="text-warning">Texto warning</h1>
+      <h1 class="text-danger">Texto danger</h1>
+      <h1 class="text-light">Texto light</h1>
+      <h1 class="text-dark">Texto dark</h1>
+      <h1 class="text-white">Texto white</h1>
+      <h1 class="text-black-50">Texto black 50</h1>
+      <h1 class="text-white-50">Texto white 50</h1>
+    </div>
+
+    <!--Formatação de Link-->
+    <div style="background: purple; margin-bottom: 10px;">
+      <a href="#" class="text-primary">Link primary</a>
+      <a href="#" class="text-secondary">Link secondary</a>
+      <a href="#" class="text-success">Link success</a>
+      <a href="#" class="text-info">Link info</a>
+      <a href="#" class="text-warning">Link warning</a>
+      <a href="#" class="text-danger">Link danger</a>
+      <a href="#" class="text-light">Link light</a>
+      <a href="#" class="text-dark">Link dark</a>
+      <a href="#" class="text-white">Link white</a>
+      <a href="#" class="text-black-50">Link black 50</a>
+      <a href="#" class="text-white-50">Link white 50</a>
+    </div>
+
+    <!--Background-->
+    <div style="background: purple; margin-bottom: 10px;">
+      <div class="bg-primary">background primary</div>
+      <div  class="bg-secondary">background secondary</div>
+      <div  class="bg-success">background success</div>
+      <div  class="bg-info">background info</div>
+      <div  class="bg-warning">background warning</div>
+      <div  class="bg-danger">background danger</div>
+      <div  class="bg-light">background light</div>
+      <div  class="bg-dark">background dark</div>
+      <div  class="bg-white">background white</div>
+      <div  class="bg-transparent">background transparent</div>
+    </div>
+    
+    <!--Margin
+    mt - margin top
+    mb - margin bottom
+    ms - margin start
+    me - margin end
+    mx - margin no eixo x (horizontal)
+    my - margin no eixo y (vertical)
+    m - margin em todos os lados
+    Valor de 0 a 5
+    -->
+    <div>
+      <p style="width: 100px; height: 100px; background: red;" class="m-5"></p>
+    </div>
+
+    <!--Padding
+    pt - padding top
+    pb - padding bottom
+    ps - padding start
+    pe - padding end
+    px - padding no eixo x (horizontal)
+    py - padding no eixo y (vertical)
+    p - padding em todos os lados
+    Valor de 0 a 5
+    -->
+
+    <p style="width: 100px; height: 100px; background: red;" class="p-5">1</p>
+
+    <!--Classe de Largura-->
+    <div style="margin: 20px auto 20px; width: 600px;border: 1px solid red;">
+      <div class="bg-primary w-25">Width 25%</div>
+      <div class="bg-primary w-50">Width 50%</div>
+      <div class="bg-primary w-75">Width 75</div>
+      <div class="bg-primary w-100">Width 100%</div>
+      <div class="bg-primary w-auro">Width auto</div>
+    </div>
+
+    <!--Classes de Altura-->
+    <div style="height: 300px; border: 1px solid red; margin-bottom: 20px;">
+      <div class="bg-warning d-inline-block h-25">25%</div>
+      <div class="bg-warning d-inline-block h-50">50%</div>
+      <div class="bg-warning d-inline-block h-75">75%</div>
+      <div class="bg-warning d-inline-block h-100">100%</div>
+      <div class="bg-warning d-inline-block h-auto">auto</div>
+    </div>
+
+    <!--Bordas
+    border
+    border-top
+    border-bottom
+    border-start
+    border-end
+
+    cores de bordas
+    border-<cor>
+      cor: primary, secondary, success,info, warning, danger, ligth, dark, white
+    -->
+    <div class="bg-white mb-2 border border-warning ">todas as bordas</div>
+    <div class="bg-white mb-2 border-top border-success">borda superior</div>
+    <div class="bg-white mb-2 border-bottom">borda inferior</div>
+    <div class="bg-white mb-2 border-start">borda esquerda</div>
+    <div class="bg-white mb-2 border-end">borda direita</div>
+
+    <!--Arredondamento borda
+    opções: rounded, rounded-top,rounded-bottom,rounded-start, rounded-end,roundend-circle
+    -->
+    <div class="bg-white mb-2 border border-warning rounded ">--Arredondamento</div>
+    <div class="bg-white mb-2 border border-warning rounded-top ">--Arredondamento topo</div>
+    <div class="bg-white mb-2 border border-warning rounded-bottom">--Arredondamento bottom</div>
+    <div class="bg-white mb-2 border border-warning rounded-start ">--Arredondamento esquerda</div>
+    <div class="bg-white mb-2 border border-warning rounded-end ">--Arredondamento direita</div>
+    <div class="bg-white mb-2 border border-warning rounded-circle" style="width:100px; height: 100px;">--Arredondamento circulo</div>
+    <div class="bg-white mb-2 border border-warning rounded-pill" style="height: 100px;">--Arredondamento circulo</div>
+
+    <!--Configuração do js-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
